@@ -1,3 +1,17 @@
+# How to use
+## setup
+```bash
+python3 -m venv battery_env
+source battery_env/bin/activate
+pip install -r requirements.txt
+mkdir outputs
+```
+## use
+```bash
+source battery_env/bin/activate
+python charging.py 'example data/charging.csv'
+```
+
 # Current headers
 |date                           |timestamp  |voltage |battery|charge  |current |current_avg|cpu0_freq|cpu1_freq|cpu2_freq|cpu3_freq|cpu0_load|cpu1_load|cpu2_load|cpu3_load|
 |-------------------------------|-----------|--------|-------|--------|--------|-----------|---------|---------|---------|---------|---------|---------|---------|---------|
