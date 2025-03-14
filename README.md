@@ -1,3 +1,6 @@
+# Example graph
+<img src="example_outputs/charging.png" width="auto" style="max-width:300px;">
+
 # How to use
 ## setup
 ```bash
@@ -22,3 +25,4 @@ python charging.py 'example data/charging.csv'
 - [ ] record if screen is on
 - [ ] check top 3 process
 - [ ] find true CPU temp?
+
